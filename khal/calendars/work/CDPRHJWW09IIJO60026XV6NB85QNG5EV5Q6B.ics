@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PIMUTILS.ORG//NONSGML khal / icalendar //EN
+BEGIN:VEVENT
+SUMMARY:[√] Video trim
+DTSTART;VALUE=DATE:20220511
+DTEND;VALUE=DATE:20220512
+DTSTAMP;VALUE=DATE-TIME:20220510T111428Z
+UID:CDPRHJWW09IIJO60026XV6NB85QNG5EV5Q6B
+SEQUENCE:1
+CATEGORIES:
+DESCRIPTION:Check the Video trim. If they are done\, let's processing them
+ . If not\, trim them again. Damn. I may'd like to rewright the script to i
+ ncreasing the efficiency of the script.
+END:VEVENT
+END:VCALENDAR
