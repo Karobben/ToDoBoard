@@ -11,10 +11,12 @@ do
 	if [ $New_Time = $Time ]
 	then
 	       	echo No update;
+		date
 		echo $Time $New_Time
 	else
 		echo update found
-		echo $Time
+		echo $New_Time
+		ikhal_sy.sh
 		Time=$(echo $New_Time)
 	fi
 	sleep 10
