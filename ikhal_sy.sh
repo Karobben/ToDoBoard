@@ -1,6 +1,8 @@
-cd /mnt/8A26661926660713/Github
-git clone https://github.com/Karobben/ToDoBoard.git
-cd ToDoBoard
+SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]:-$0}"; )" &> /dev/null && pwd 2> /dev/null; )";
+
+echo $SCRIPT_DIR
+
+cd $SCRIPT_DIR
 git pull
 rm -rf ~/.local/share/khal/
 cp -r khal   ~/.local/share/khal/
